@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBox {
+    height: 360px;
+    width: 960px;
+    margin: 6px auto;
+    background-color: #333333;
+}
+
+.mainBox p {
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 147px;
+    font-family: monospace;
+
+}
+
+.container {
+    width: 76%;
+    padding-top: 30px;
+}
+
+.row {
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+.card{
+    border: none;
+}
+.line{
+    border: 1px solid rgb(199, 197, 197);
+    padding: 5px;
+}
+.card .img {
+    background-color: #333333;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    padding-top: 75px;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+   
+
+}
+.card .card-title{
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.774);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.card .card-text {
+    color: lightgrey;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.link-button {
+    color: #e2bf89;
+    margin-left: 160px;
+    text-decoration: none;
+}
+
+.link-button .fa-solid {
+    font-size: 12px;
+}
